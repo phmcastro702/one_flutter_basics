@@ -13,7 +13,6 @@ class Answer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        margin: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
         width: double.infinity,
         child: RaisedButton(
           textColor: Colors.white,

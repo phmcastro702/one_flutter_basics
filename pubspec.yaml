@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  rive: ^0.6.3
   random_color: ^1.0.5
   flutter:
     sdk: flutter
@@ -44,6 +45,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/anims/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
